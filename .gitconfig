@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = foreverandever
+	email = 543758084@qq.com
+#git clone git@github.com:terryryo/SanXiao.git
+
+[http]
+	proxy = http://10.10.10.10:8080
